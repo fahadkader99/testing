@@ -1,0 +1,10 @@
+Sign in with chrome:
+
+ash@gmail.com
+Java12345[]
+
+jahan@gmail.com
+Jahan12345
+
+
+note: in this POM design pattern I will > keep all the web elements and actions inside the Page class and stepdef will have all the implementation and assertions
