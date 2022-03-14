@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-14T20:02:41.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2416399000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify user is able to login",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-functionality;verify-user-is-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 664533000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.closeUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 437838000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open website",
+            "match": {
+              "location": "automation.steps.Login_steps.userOpenWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39177000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify user is at the login page",
+            "match": {
+              "location": "automation.steps.Login_steps.verifyUserIsAtTheLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 231275000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input valid credentials",
+            "match": {
+              "location": "automation.steps.Login_steps.userInputValidCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663645000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the sign in button",
+            "match": {
+              "location": "automation.steps.Login_steps.userClicksOnTheSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91120000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify user is navigated to home page",
+            "match": {
+              "location": "automation.steps.HomePage_Steps.verifyUserIsNavigatedToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test the Login Functionality",
+    "description": "",
+    "id": "this-feature-is-to-test-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
